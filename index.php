@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Agência</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="menu">
+                <div class="logo">LOGO</div>
+                <nav class="desktop">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#sobre">About</a></li>
+                        <li><a href="#servicos">Services</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="mobile">
+                    <div class="btn-mobile">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <ul>
+                       <li><a href="#">Home</a></li>
+                        <li><a href="#sobre">About</a></li>
+                        <li><a href="#servicos">Services</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="btn">
+                    <a href="">Botão</a>
+                </div>
+            </div>
+            <div class="content-header">
+                <div class="w50 left content-text">
+                    <h1>We help your business achieve its goals!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quae illum esse consequatur optio, voluptatum cum possimus.</p>
+                    <a href="">Click here</a>
+                </div>
+                <div class="w50 left foto-banner">
+                    <img src="assets/images/man.jpg" alt="">
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="decription">
+        <div class="container">
+            <div class="box-description">
+                <div class="w33 left box-description-content">
+                    <i class="fa fa-handshake-o"></i>
+                    <h2>Smart plan</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci sint dolore!</p>
+                    <div class="box-icon-diff">
+                        <i class="fa fa-long-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="w33 left box-description-content">
+                    <i class="fa fa-lightbulb-o"></i>
+                    <h2>Creative ideas</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci sint dolore!</p>
+                    <div class="box-icon-diff">
+                        <i class="fa fa-long-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="w33 left box-description-content">
+                    <i class="fa fa-exchange"></i>
+                    <h2>High Experience</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci sint dolore!</p>
+                    <div class="box-icon-diff">
+                        <i class="fa fa-long-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="w50 left box-about-img">
+                <img src="assets/images/man.jpg" alt="">
+            </div>
+            <div class="w50 left box-about-text">
+                <div class="title">
+                    <h3>How we work</h3>
+                    <h2>We Follow Intelligent Ideas Methods to Provide Solutions</h2>
+                </div>
+                <div class="box-about-single-paragraph">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio voluptatem cupiditate quae animi, illum ea atque ut iusto enim at.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio voluptatem cupiditate quae animi, illum ea atque ut iusto enim at.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At praesentium harum magni!</p>
+                </div>
+                <div class="lista-box-single">
+                    <ul>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing</li>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing</li>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing</li>
+                    </ul>
+                </div>
+                <div class="box-tree-itens">
+                    <div class="iten-single project">
+                        <h3>+300</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="iten-single client">
+                        <h3>+150</h3>
+                        <p>Clients</p>
+                    </div>
+                    <div class="iten-single offices">
+                        <h3>+40</h3>
+                        <p>Offices</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <section class="services" id="servicos">
+        <div class="container">
+            <div class="title">
+                <h3 class="bg-red">Services</h3>
+                <h2>Services we offer</h2>
+                <p class="max">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora quae eum reiciendis eveniet est quibusdam?</p>
+            </div>
+            <div class="flex-itens-services">
+                <div class="item-single-service">
+                    <div class="box-icon-service ui">
+                        <i class="fa fa-address-card-o"></i>
+                    </div>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, magni cumque quasi laudantium sunt quae!</p>
+                    <i class="fa fa-long-arrow-right"></i>
+                </div>
+                <div class="item-single-service">
+                    <div class="box-icon-service dev">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <h2>Responsive Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, magni cumque quasi laudantium sunt quae!</p>
+                    <i class="fa fa-long-arrow-right"></i>
+                </div>
+                <div class="item-single-service">
+                    <div class="box-icon-service web">
+                        <i class="fa fa-desktop"></i>
+                    </div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, magni cumque quasi laudantium sunt quae!</p>
+                    <i class="fa fa-long-arrow-right"></i>
+                </div>
+                <div class="item-single-service">
+                    <div class="box-icon-service seo">
+                        <i class="fa fa-cogs"></i>
+                    </div>
+                    <h2>SEO Marketing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, magni cumque quasi laudantium sunt quae!</p>
+                    <i class="fa fa-long-arrow-right"></i>
+                </div>
+                <div class="item-single-service">
+                    <div class="box-icon-service mob">
+                        <i class="fa fa-mobile"></i>
+                    </div>
+                    <h2>Mobile Security</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, magni cumque quasi laudantium sunt quae!</p>
+                    <i class="fa fa-long-arrow-right"></i>
+                </div>
+                <div class="item-single-service">
+                    <div class="box-icon-service sup">
+                        <i class="fa fa-life-ring"></i>
+                    </div>
+                    <h2>24 / 7 Free Support</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, magni cumque quasi laudantium sunt quae!</p>
+                    <i class="fa fa-long-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="title portfolio-title">
+                <h3 class="bg-blue">Portfólio</h3>
+                <h2>Our Best Jobs</h2>
+            </div>
+            <div class="portfolio-menu">
+                <ul>
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".web">WebDesign</li>
+                    <li data-filter=".seo">Branding</li>
+                    <li data-filter=".graphics">SEO</li>
+                </ul>
+            </div>
+            <div class="portfolio-item">
+                <div class="item web">
+                    <img src="assets/images/filter.jpg" alt="">
+                </div>
+                <div class="item web">
+                    <img src="assets/images/filter.jpg" alt="">
+                </div>
+                <div class="item graphics">
+                    <img src="assets/images/filter.jpg" alt="">
+                </div>
+                <div class="item graphics">
+                    <img src="assets/images/filter.jpg" alt="">
+                </div>
+                <div class="item seo">
+                    <img src="assets/images/filter.jpg" alt="">
+                </div>
+                <div class="item seo">
+                    <img src="assets/images/filter.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="title portfolio-title">
+                <h3 class="bg-blue">Blog</h3>
+                <h2>Nossos Últimas Notícias</h2>
+            </div>
+            <div class="content-blog">
+                <div class="blog-info">
+                    <a href="">
+                        <img src="assets/images/blog1.jpg" alt="">
+                        <div class="box-blog-body">
+                            <h2>Title Notice</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam in quisquam sint iste atque eaque ut aliquid veritatis.</p>
+                        </div>
+                        <div class="box-icon-blog">
+                            <i class="fa fa-chevron-right"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-info">
+                    <a href="">
+                        <img src="assets/images/blog1.jpg" alt="">
+                        <div class="box-blog-body">
+                            <h2>Title Notice</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam in quisquam sint iste atque eaque ut aliquid veritatis.</p>
+                        </div>
+                        <div class="box-icon-blog">
+                            <i class="fa fa-chevron-right"></i>
+                        </div>
+                    </a> 
+                </div>
+                <div class="blog-info">
+                    <a href="">
+                        <img src="assets/images/blog1.jpg" alt="">
+                        <div class="box-blog-body">
+                            <h2>Title Notice</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam in quisquam sint iste atque eaque ut aliquid veritatis.</p>
+                        </div>
+                        <div class="box-icon-blog">
+                            <i class="fa fa-chevron-right"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brands">
+        <div class="container">
+            <div class="flex-brands">
+                <div class="brands-item">
+                    <i class="fa fa-amazon"></i>
+                </div>
+                <div class="brands-item">
+                    <i class="fa fa-drupal"></i>
+                </div>
+                <div class="brands-item">
+                    <i class="fa fa-google-wallet"></i>
+                </div>
+                <div class="brands-item">
+                    <i class="fa fa-tripadvisor"></i>
+                </div>
+                <div class="brands-item">
+                    <i class="fa fa-windows"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <div class="container">
+            <div class="flex-subscribe">
+                <div class="flex-item-subscribe flex-subscribe-text">
+                    <h2>Do you have a project in mind?</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab labore reiciendis quos impedit porro beatae?</p>
+                </div>
+                <div class="flex-item-subscribe btn-subscribe">
+                    <a href="">Contate-me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="flex-footer">
+                <div class="flex-item-footer">
+                    <div class="logo-footer">
+                        <h2>Logo</h2>
+                        <ul>
+                            <li><i class="fa fa-facebook"></i></li>
+                            <li><i class="fa fa-instagram"></i></li>
+                            <li><i class="fa fa-behance"></i></li>
+                            <li><i class="fa fa-youtube"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex-item-footer">
+                    <div class="menu-footer">
+                        <h2>Links</h2>
+                        <ul>
+                            <li><a href="">Sobre</a></li>
+                            <li><a href="">Serviços</a></li>
+                            <li><a href="">Portfólio</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex-item-footer">
+                    <div class="contact-footer">
+                        <h2>Contato</h2>
+                        <ul>
+                            <li><i class="fa fa-phone"></i> +55 (35) 00000000</li>
+                            <li><i class="fa fa-envelope"></i> email@email.com</li>
+                            <li><i class="fa fa-map-marker"></i> 122, rua xxx, endereço tal</li>
+                            <li><i class="fa fa-map-marker"></i> 122, rua xxx, endereço tal</li>
+                            <li><i class=""></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">&copy; 2020 Created with ❤️ by Daniel Ferreira | All rights reserved</p>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        $('.portfolio-item').isotope({
+            itemSelector: '.item',
+            layoutMode: 'fitRows'
+        });
+        $('.portfolio-menu ul li').on('click', function(){
+            $('.portfolio-menu ul li').removeClass('active');
+            $(this).addClass('active');
+
+            var seletor = $(this).attr('data-filter');
+            $('.portfolio-item').isotope({
+                filter: seletor
+            });
+            return false;
+        });
+    </script>
+</body>
+</html>
