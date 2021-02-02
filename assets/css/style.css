@@ -37,7 +37,7 @@ header::before {
     content: "";
     position: absolute;
     right: 0;
-    width: 350px;
+    width: 400px;
     height: 100%;
     background-color: #e89828;
     z-index: -1;
