@@ -567,6 +567,12 @@ footer {
 }
 
 /* Mobile */
+@media screen and (max-width: 820px) {
+    .lista-box-single {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 769px) {
     header::after {
         display: block;
