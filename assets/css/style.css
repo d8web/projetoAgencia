@@ -711,7 +711,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
     .w33 {
         width: 100%;
         margin: 0;
