@@ -594,9 +594,7 @@ footer {
     .container {
         width: 95%;
     }
-    .flex-itens-services {
-        flex-direction: column;
-    }
+    
     .w50 {
         width: 100%;
         margin: 0;
@@ -618,6 +616,9 @@ footer {
     }
     .portfolio-menu ul li {
         padding: 3px 10px;
+    }
+    .item-single-service {
+        width: calc(50% - 20px);
     }
     .flex-itens-services .item-single-service:nth-child(1) {
         margin-left: 10px;
@@ -711,6 +712,9 @@ footer {
         margin: 30px 0px;
     }
     .content-blog {
+        flex-direction: column;
+    }
+    .flex-itens-services {
         flex-direction: column;
     }
 }
