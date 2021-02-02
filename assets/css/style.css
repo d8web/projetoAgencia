@@ -638,6 +638,11 @@ footer {
     .title p {
         text-align: center;
     }
+    .box-about-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .box-description-content {
         border-bottom: 0.5px solid #999;
     }
