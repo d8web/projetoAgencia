@@ -593,9 +593,7 @@ footer {
         margin-bottom: 15px;
         margin-top: 15px;
     }
-    .content-blog {
-        flex-direction: column;
-    }
+ 
     .blog-info {
         margin-top: 20px;
         width: calc(50% - 20px);
@@ -688,5 +686,8 @@ footer {
     .blog-info {
         width: 100%;
         margin: 10px 0px;
+    }
+    .content-blog {
+        flex-direction: column;
     }
 }
