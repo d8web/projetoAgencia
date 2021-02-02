@@ -402,6 +402,7 @@ nav.desktop ul li a {
 }
 .content-blog {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
 }
 .blog-info {
