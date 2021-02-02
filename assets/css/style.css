@@ -296,9 +296,8 @@ nav.desktop ul li a {
     margin: 50px 0;
 }
 .item-single-service {
-    min-width: calc(33.3% - 20px);
+    width: calc(33.3% - 20px);
     margin: 10px;
-    flex: 1;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
@@ -716,5 +715,9 @@ footer {
     }
     .flex-itens-services {
         flex-direction: column;
+    }
+    .item-single-service {
+        width: 100%;
+        margin: 15px 0px;
     }
 }
