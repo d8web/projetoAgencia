@@ -685,7 +685,7 @@ footer {
 @media screen and (max-width: 480px) {
     .blog-info {
         width: 100%;
-        margin: 10px 0px;
+        margin: 30px 0px;
     }
     .content-blog {
         flex-direction: column;
