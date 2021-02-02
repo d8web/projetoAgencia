@@ -605,7 +605,7 @@ footer {
         margin: 0;
     }
     .w33 {
-        width: 100%;
+        width: 50%;
         margin: 0;
     }
     .portfolio-item .item {
@@ -712,6 +712,10 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+    .w33 {
+        width: 100%;
+        margin: 0;
+    }
     .blog-info {
         width: 100%;
         margin: 30px 0px;
