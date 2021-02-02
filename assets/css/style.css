@@ -31,7 +31,7 @@ header {
     height: 120vh;
     position: relative;
     background-color: #f8f8f8;
-    z-index: 1;
+    z-index: 2;
 }
 header::before {
     content: "";
@@ -42,16 +42,7 @@ header::before {
     background-color: #e89828;
     z-index: -1;
 }
-header::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #e89828;
-    width: 100%;
-    height: 100%;
-    border-radius: 0% 63% 100% 0% / 100% 0% 100% 0%;
-}
+
 .container {
     width: 100%;
     max-width: 1024px;
@@ -565,6 +556,17 @@ footer {
 
 /* Mobile */
 @media screen and (max-width: 769px) {
+    header::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #e89828;
+        width: 100%;
+        height: 100%;
+        border-radius: 0% 63% 100% 0% / 100% 0% 100% 0%;
+        z-index: 1;
+    }
     header::before {
         display: none;
     }
