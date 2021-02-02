@@ -405,7 +405,7 @@ nav.desktop ul li a {
     margin-top: 50px;
 }
 .blog-info {
-    flex: 1;
+    width: calc(33.3% - 20px);
     margin: 10px;
     position: relative;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
@@ -598,6 +598,7 @@ footer {
     }
     .blog-info {
         margin-top: 20px;
+        width: calc(50% - 20px);
     }
     .portfolio-menu ul li {
         padding: 3px 10px;
@@ -680,5 +681,12 @@ footer {
     }
     .flex-subscribe {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .blog-info {
+        width: 100%;
+        margin: 10px 0px;
     }
 }
